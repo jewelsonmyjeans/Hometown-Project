@@ -1,0 +1,98 @@
+:root {
+    --navy: #1D3557;
+    --cyan-blue: #457B9D;
+    --light-cyan: #A8DADC;
+    --light-green: #F1FAEE;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hero {
+    background-image: url(images/chicago.jpg);
+    background-size: cover;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+#hero h1 {
+    background-color: var(--navy);
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#hero h2 {
+    background-color: var(--cyan-blue);
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.activity-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.activity-holder {
+    width: 200px;
+}
+
+.activity-holder h3, .activity-holder p {
+    color: var(--navy)
+}
+
+
+
+#activity {
+    background-color: var(--light-green);
+    height: 343px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 58px 20px;
+    margin: 0 auto;
+}
+
+#guide {
+    height: 394px;
+}
+
+#selfie {
+    width: 180px;
+    height: 240px;
+    border-radius: 20px;
+}
+
+#tour-card {
+    background-color: var(--light-cyan);
+    width: 400px;
+    height: 294px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    box-shadow: 0 6px 0 var(--navy);
+    border-radius: 20px;
+    transform: 1s ease-in-out;
+}
+#tour-card:hover {
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+}
+a {
+    text-decoration: none;
+    color: var(--navy);
+}
+.card-holder {
+    width: 200px;
+}
