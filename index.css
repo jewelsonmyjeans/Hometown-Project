@@ -96,3 +96,7 @@ a {
 .card-holder {
     width: 200px;
 }
+
+#biking-photo:hover {
+    background-image: url(https://media1.giphy.com/media/PmjJoLuBKXQxU0qXVu/giphy.gif);
+}
